@@ -253,10 +253,14 @@ class SocketConnection {
 }
 
 const initializePeerConnection = () => {
+    console.log('Salve salve familia', peerjsEndpoint);
     return new Peer('', {
-        host: peerjsEndpoint,
-        secure: true
+        host: 'localhost',
+        port: 5000,
+        path:'/peerjs',
+        // secure: true
     });
+
 }
 
 const initializeSocketConnection = () => {

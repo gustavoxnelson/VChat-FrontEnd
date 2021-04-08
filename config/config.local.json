@@ -1,4 +1,14 @@
 {
     "development": {
+        "endpoint": "http://localhost:5000",
+        "websocket": "ws://localhost:5000"
+    },
+    "test": {
+        "endpoint": "http://localhost:5000",
+        "websocket": "ws://localhost:5000"
+    },
+    "production": {
+        "endpoint": "http://localhost:5000",
+        "websocket": "ws://localhost:5000"
     }
 }
