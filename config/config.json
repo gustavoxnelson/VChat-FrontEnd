@@ -2,16 +2,16 @@
     "development": {
         "endpoint": "https://packzin-call-back.herokuapp.com",
         "peerjsEndpoint": "https://packzin-call-back.herokuapp.com",
-        "websocket": "ws://packzin-call-back.herokuapp.com"
+        "websocket": "wss://packzin-call-back.herokuapp.com"
     },
     "test": {
         "endpoint": "https://packzin-call-back.herokuapp.com",
         "peerjsEndpoint": "https://packzin-call-back.herokuapp.com",
-        "websocket": "ws://packzin-call-back.herokuapp.com"
+        "websocket": "wss://packzin-call-back.herokuapp.com"
     },
     "production": {
         "endpoint": "https://packzin-call-back.herokuapp.com",
         "peerjsEndpoint": "https://packzin-call-back.herokuapp.com",
-        "websocket": "ws://packzin-call-back.herokuapp.com"
+        "websocket": "wss://packzin-call-back.herokuapp.com"
     }
 }
