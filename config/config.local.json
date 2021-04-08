@@ -1,14 +1,14 @@
 {
     "development": {
-        "endpoint": "http://localhost:5000",
-        "websocket": "ws://localhost:5000"
+        "endpoint": "http://packzin-call-back.herokuapp.com",
+        "websocket": "ws://packzin-call-back.herokuapp.com"
     },
     "test": {
-        "endpoint": "http://localhost:5000",
-        "websocket": "ws://localhost:5000"
+        "endpoint": "http://packzin-call-back.herokuapp.com",
+        "websocket": "ws://packzin-call-back.herokuapp.com"
     },
     "production": {
-        "endpoint": "http://localhost:5000",
-        "websocket": "ws://localhost:5000"
+        "endpoint": "http://packzin-call-back.herokuapp.com",
+        "websocket": "ws://packzin-call-back.herokuapp.com"
     }
 }
