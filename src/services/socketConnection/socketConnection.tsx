@@ -255,7 +255,7 @@ class SocketConnection {
 const initializePeerConnection = () => {
     console.log('Salve salve familia', peerjsEndpoint);
     return new Peer('', {
-        host: 'packzin-call-back.herokuapp.com',
+        host: 'backend-call.packzin.com.br',
         path:'/peerjs',
         secure: true
     });

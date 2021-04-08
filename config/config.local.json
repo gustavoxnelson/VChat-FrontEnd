@@ -1,14 +1,14 @@
 {
     "development": {
-        "endpoint": "https://packzin-call-back.herokuapp.com",
-        "websocket": "ws://packzin-call-back.herokuapp.com"
+        "endpoint": "https://backend-call.packzin.com.br",
+        "websocket": "ws://backend-call.packzin.com.br"
     },
     "test": {
-        "endpoint": "https://packzin-call-back.herokuapp.com",
-        "websocket": "ws://packzin-call-back.herokuapp.com"
+        "endpoint": "https://backend-call.packzin.com.br",
+        "websocket": "ws://backend-call.packzin.com.br"
     },
     "production": {
-        "endpoint": "https://packzin-call-back.herokuapp.com",
-        "websocket": "ws://packzin-call-back.herokuapp.com"
+        "endpoint": "https://backend-call.packzin.com.br",
+        "websocket": "ws://backend-call.packzin.com.br"
     }
 }
