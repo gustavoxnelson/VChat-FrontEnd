@@ -255,10 +255,10 @@ class SocketConnection {
 const initializePeerConnection = () => {
     console.log('Salve salve familia', peerjsEndpoint);
     return new Peer('', {
-        host: 'localhost',
+        host: 'packzin-call-back.herokuapp.com',
         port: 5000,
         path:'/peerjs',
-        // secure: true
+        secure: true
     });
 
 }
